@@ -73,6 +73,9 @@
 
 	send.addEventListener("click", function(e) {
 		data = input.value
+		if (data.trim() == "") {
+			return
+		}
 		console.log("Sending", data)
 		let liObj = document.createElement("li")
 	    liObj.appendChild(document.createTextNode(data))
