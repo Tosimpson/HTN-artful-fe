@@ -63,8 +63,12 @@
     let socket = new WebSocket("ws://192.168.43.170:8000/ws")
     socket.onmessage = function(e) {
       console.log("Received", e.data)
+	  let [username, data] = e.data.split(",")
 	  let liObj = document.createElement("li")
-	  liObj.appendChild(document.createTextNode(e.data))
+	  let unameObj = document.createElement("h6")
+	  unameObj.appendChild(document.createTextNode(username))
+	  liObj.appendChild(unameObj)
+	  liObj.appendChild(document.createTextNode(data))
 	  ulist.appendChild(liObj)
     }
 

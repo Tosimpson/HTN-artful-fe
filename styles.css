@@ -119,13 +119,18 @@
 #ulist li {
 	background-color: white;
 	padding: 8px;
-	height: 30px;
 	width: 100%;
 	color: black;
-	border-radius: 20px;
+	border-radius: 8px;
 	margin: 8px;
 }
 
 #ulist {
 	list-style: none;
+}
+
+#ulist h6 {
+	color: gray;
+	text-align: left;
+	margin: 0
 }
