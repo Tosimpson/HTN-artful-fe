@@ -61,6 +61,8 @@
 .chatbox {
   background: transparent;
   flex: 1;
+  overflow: auto;
+  height: 400px;
 }
 
 .back_btn {
