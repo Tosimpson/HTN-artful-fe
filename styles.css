@@ -30,7 +30,7 @@
 .profile {
   display: flex;
   width: 100%;
-  background: #036055;
+  background: #1b75bc;
   text-align: center;
   height: 60px;
   padding: 0 10px;
@@ -92,7 +92,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #036055;
+  background-color: #1b75bc;
 }
 
 .chat_buttom form{
@@ -114,16 +114,23 @@
 .chat_buttom form .message_send button{
   padding: .2em;
   border-radius: .6rem;
+  color: black;
+  background-color: darkgrey;
+}
+
+.emoji_icon img {
+  height: 25px;
 }
 
 #ulist li {
 	background-color: white;
 	padding: 8px;
 	height: 30px;
-	width: 100%;
+	width: 60%;
 	color: black;
 	border-radius: 20px;
 	margin: 8px;
+  float: right;
 }
 
 #ulist {
